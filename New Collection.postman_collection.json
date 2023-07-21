@@ -1,0 +1,84 @@
+{
+	"info": {
+		"_postman_id": "1cd0ce6f-931d-47bc-895d-0871c8dfc7d2",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28536239"
+	},
+	"item": [
+		{
+			"name": "addSong",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"bestRockSongs2020\": [\r\n    {\r\n      \"title\": \"Shame Shame\",\r\n      \"artists\": [\"Foo Fighters\"],\r\n      \"url\": \"spotify:track:7tT1NBdqOX8W9OfzOf1KqM\"\r\n    },\r\n    {\r\n      \"title\": \"Ohms\",\r\n      \"artists\": [\"Deftones\"],\r\n      \"url\": \"spotify:track:2rntUEAveP95pysxatBzLo\"\r\n    },\r\n    {\r\n      \"title\": \"Caution\",\r\n      \"artists\": [\"The Killers\"],\r\n      \"url\": \"spotify:track:3a1lNhkSLSkpJE4MSHpDu9\"\r\n    },\r\n    {\r\n      \"title\": \"Black Madonna\",\r\n      \"artists\": [\"Cage The Elephant\"],\r\n      \"url\": \"spotify:track:6Oz4lLlm8I4ODIry0ZlSUA\"\r\n    },\r\n    {\r\n      \"title\": \"Instant History\",\r\n      \"artists\": [\"Biffy Clyro\"],\r\n      \"url\": \"spotify:track:6nyH1UZpG0ZndpeUS3cU0W\"\r\n    },\r\n    {\r\n      \"title\": \"Fortune\",\r\n      \"artists\": [\"Wasted Shirt\"],\r\n      \"url\": \"spotify:track:1Cuyv8cDkeZFoOEdNwK3VH\"\r\n    },\r\n    {\r\n      \"title\": \"Your Love (Déjà Vu)\",\r\n      \"artists\": [\"Glass Animals\"],\r\n      \"url\": \"spotify:track:5T7ZBwbwqGWG6Db5jK9j1v\"\r\n    },\r\n    {\r\n      \"title\": \"Hollywood Park\",\r\n      \"artists\": [\"The Airborne Toxic Event\"],\r\n      \"url\": \"spotify:track:0a85iLt40pmbbGGEWEd7P4\"\r\n    },\r\n    {\r\n      \"title\": \"Heat Waves\",\r\n      \"artists\": [\"Glass Animals\"],\r\n      \"url\": \"spotify:track:1JlFN5L0oOAkI4Gz7suoEg\"\r\n    },\r\n    {\r\n      \"title\": \"Lost\",\r\n      \"artists\": [\"Black Stone Cherry\"],\r\n      \"url\": \"spotify:track:0SyoPojq2KlvO5Yq3gGj1e\"\r\n    }\r\n  ]\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/Playlist",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Playlist"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getSongs",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "playSong",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/playSong",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"playSong"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/getMostPlayed",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/getMostPlayed",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"getMostPlayed"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
